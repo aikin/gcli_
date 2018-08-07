@@ -1,4 +1,4 @@
 import './polyfills'
 
-export * from './actions/github'
-export * from './questions/username'
+export * from './actions/generator'
+export * from './questions/inquirer'

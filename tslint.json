@@ -63,6 +63,13 @@
 			"check-decl",
 			"check-operator",
 			"check-type"
+		],
+		"ordered-imports": [
+			true,
+			{
+				"import-sources-order": "lowercase-last",
+				"named-imports-order": "lowercase-first"
+			}
 		]
 	}
 }

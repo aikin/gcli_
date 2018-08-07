@@ -1,6 +1,6 @@
-import * as path from 'path'
-import test from 'ava'
+import test  from 'ava'
 import * as execa from 'execa'
+import * as path from 'path'
 
 const cwd = path.dirname(__dirname)
 const packageJson = require(path.join(cwd, '../package.json'))
