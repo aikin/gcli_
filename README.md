@@ -1,3 +1,6 @@
+
+
 ## TODO
-* license
-* repo url
+- [ ] License
+- [ ] Repo url
+- [ ] travis
