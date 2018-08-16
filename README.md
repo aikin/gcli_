@@ -2,6 +2,5 @@
 
 
 ## TODO
-- [ ] Generate
 - [ ] License choices
 - [ ] Travis
