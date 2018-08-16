@@ -1,3 +1,3 @@
 export const generate = credentials => {
-	debugger;
+	console.log(credentials)
 }

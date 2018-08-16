@@ -1,16 +1,15 @@
 import chalk from 'chalk'
 import * as commander from 'commander'
+import { generate } from './actions/generator'
 import { askForInit } from './questions/inquirer'
-import {generate} from './actions/generator'
-
 
 commander.version('1.0.0').description('A command line seed')
 
 commander
-	.command('repo')
-	.alias('r')
-	.description('Fetch github repos')
-	.action( async () => {
+	.command('generate')
+	.alias('G')
+	.description('generate cli project')
+	.action(async () => {
 		console.log(chalk.yellow('=========***Command Line***==========\n'))
 		const credentials = await askForInit()
 		generate(credentials)

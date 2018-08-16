@@ -1,6 +1,7 @@
+# Generate command-line app in Node.js using TypeScript
 
 
 ## TODO
-- [ ] License
-- [ ] Repo url
-- [ ] travis
+- [ ] Generate
+- [ ] License choices
+- [ ] Travis
