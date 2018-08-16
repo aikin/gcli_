@@ -7,14 +7,12 @@ const cwd = path.dirname(__dirname)
 
 export const generate = credentials => {
 	;(async () => {
-		console.log('credentials', credentials)
-		console.log('credentials', cwd)
 		try {
-			const spinner = ora('Copying files...').start()
+			const spinner = ora('Copying cli seed...').start()
 
 			await fs.copy(`${cwd}/seed`, '.')
 
-			spinner.stop()
+			spinner.succeed()
 		} catch (err) {
 			console.log(chalk.redBright(err))
 		}

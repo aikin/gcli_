@@ -1,19 +1,21 @@
 import chalk from 'chalk'
 import * as commander from 'commander'
-import * as inquirer from 'inquirer'
 
-import * as actions from './actions/github'
-import { username } from './questions/username'
+import { fetchRepos } from './actions/github'
+import { askUsername } from './questions/inquirer'
 
-commander.version('1.0.0').description('A command line seed')
+commander.version('1.0.0').description(' A command-line app seed in Node.js using TypeScript.')
 
 commander
 	.command('repo')
-	.alias('r')
-	.description('Fetch github repos')
-	.action(() => {
+	.alias('R')
+	.description('Demo of fetch github repos.')
+	.action(async () => {
 		console.log(chalk.yellow('=========***Command Line***==========\n'))
-		inquirer.prompt(username).then(answer => actions.fetchRepos(answer.username))
+
+		const credential = await askUsername()
+
+		fetchRepos(credential.username)
 	})
 
 if (!process.argv.slice(2).length /* || !/[arudl]/.test(process.argv.slice(2))*/) {

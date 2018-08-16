@@ -13,7 +13,7 @@
 		"watch": "npm run build -- --watch --diagnostics",
 		"prebuild": "npm run lint",
 		"compile": "tsc --pretty",
-		"build": "rimraf dist && tsc --pretty && cpx 'src/seed/**/*' dist/seed",
+		"build": "rimraf dist && cpx 'src/seed/**/*' dist/seed && tsc --pretty",
 		"precommit": "lint-staged",
 		"lint": "tslint src/**/*.ts",
 		"commit": "git-cz --no-verify"
