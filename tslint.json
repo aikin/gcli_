@@ -1,6 +1,9 @@
 {
 	"exclude": [
-		"node_modules"
+		"node_modules",
+		"dist",
+		"src/seed/node_modules",
+		"src/seed/dist"
 	],
 	"rules": {
 		"jsx-boolean-value": false,
