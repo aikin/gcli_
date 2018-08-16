@@ -1,9 +1,9 @@
 {
-	"name": "cli_",
+	"name": "{{projectName}}",
 	"version": "1.0.0",
-	"description": "A command line seed base on Node.js",
+	"description": "{{projectDesc}}",
 	"bin": {
-		"cli_": "./bin/cli_"
+		"{{cliName}}": "./bin/{{cliName}}"
 	},
 	"main": "./dist/index.js",
 	"typings": "./dist/index.d.ts",
@@ -28,18 +28,18 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/aikin/cli_.git"
+		"url": "git+{{authorUrl}}/{{cliName}}"
 	},
 	"keywords": [
 		"commander",
 		"typescript"
 	],
-	"author": "aikin <ulaijn@gmail.com> (http://aikin.me)",
+	"author": "{{authorName}}",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/aikin/cli_/issues"
+		"url": "{{authorUrl}}/{{cliName}}/issues"
 	},
-	"homepage": "https://github.com/aikin/cli_#readme",
+	"homepage": "{{authorUrl}}/{{cliName}}#readme",
 	"engines": {
 		"node": ">=9.4.0"
 	},
