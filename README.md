@@ -2,5 +2,7 @@
 
 
 ## TODO
+- [ ] npm package
+- [ ] refactor generator: async
 - [ ] License choices
 - [ ] Travis
