@@ -1,8 +1,15 @@
 # Generate command-line app in Node.js using TypeScript
 
+## Get Start
+
+```
+npm install -g gcli_
+```
+
+
+
 
 ## TODO
-- [ ] npm package
 - [ ] refactor generator: async
 - [ ] License choices
 - [ ] Travis
