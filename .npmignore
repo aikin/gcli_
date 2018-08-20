@@ -1,0 +1,9 @@
+node_modules
+.editorconfig
+.travis.yml
+dist/__test__
+npm-error.log
+.DS_Store
+.git
+.npmrc
+npm-debug.log
