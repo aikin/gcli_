@@ -3,9 +3,18 @@
 ## Get Start
 
 ```
-npm install -g gcli_
+npm i @aikin/gcli_ -g
 ```
 
+```
+mkdir demo
+
+cd demo
+
+gcli_ G
+
+npm install
+```
 
 
 
