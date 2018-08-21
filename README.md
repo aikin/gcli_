@@ -22,3 +22,6 @@ npm install
 - [ ] refactor generator: async
 - [ ] License choices
 - [ ] Travis
+- [ ] Adjust seed packages
+- [ ] Iterm guide
+- [ ] Released
