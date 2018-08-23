@@ -9,7 +9,7 @@ Generate command-line app in Node.js using TypeScript
 
 ### Tech Stack Cloud
 
-<img src='./tech-cloud-word.png' width='600px' />
+<img src='https://github.com/aikin/gcli_/blob/master/tech-cloud-word.png' width='600px' />
 
  * [node.js](https://github.com/nodejs/node)
  * [typescript](https://github.com/Microsoft/TypeScript)
