@@ -6,10 +6,12 @@
 
 Generate command-line app in Node.js using TypeScript
 
+[![asciicast](https://asciinema.org/a/198099.png)](https://asciinema.org/a/198099)
 
 ### Tech Stack Cloud
 
-<img src='https://github.com/aikin/gcli_/blob/master/cloud-word.png' width='600px' />
+<img src="http://aikin.me/2018/08/25/command-line-app-in-nodejs/cloud-word.png" with="600px" />
+
 
  * [node.js](https://github.com/nodejs/node)
  * [typescript](https://github.com/Microsoft/TypeScript)
@@ -41,13 +43,20 @@ $ npm i @aikin/gcli_ -g
 
 ## Generate
 ```
-$ mkdir demo
+$ mkdir try
 
-$ cd demo
+$ cd try
 
 $ gcli_ G
 
-$ npm install
+$ npm i
+```
+
+## Usage
+```
+$ npm run build
+
+$ ./bin/try --help
 ```
 
 
