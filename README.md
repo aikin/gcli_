@@ -42,8 +42,11 @@ $ npm i @aikin/gcli_ -g
 ## Generate
 ```
 $ mkdir demo
+
 $ cd demo
+
 $ gcli_ G
+
 $ npm install
 ```
 
