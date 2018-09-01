@@ -3,7 +3,7 @@ import * as commander from 'commander'
 import { generate } from './actions/generator'
 import { askForInit } from './questions/inquirer'
 
-commander.version('1.0.4').description('Generate command-line app in Node.js using TypeScript.')
+commander.version('1.0.6').description('Generate command-line app in Node.js using TypeScript.')
 
 commander
 	.command('generate')
